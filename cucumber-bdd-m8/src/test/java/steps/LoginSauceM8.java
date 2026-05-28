@@ -47,6 +47,7 @@ public class LoginSauceM8 extends BaseTest{
 	public void she_should_not_redirect_to_homepage() {
 		boolean status = driver.getCurrentUrl().contains("inventory");
 		Assert.assertFalse(status);		
+	    System.out.println("End Of The Test Script");
 	}
 
 //	@And("browser should be closed for her")
